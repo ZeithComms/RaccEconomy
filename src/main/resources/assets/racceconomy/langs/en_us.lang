@@ -1,0 +1,38 @@
+# Shop Block
+block.racceconomy.shop=Shop
+block.racceconomy.shop.owned=%s's Shop
+
+# Admin Shop Block
+block.racceconomy.admin_shop=Admin Shop
+block.racceconomy.admin_shop.owned=%s's Admin Shop
+
+# Gui stuff
+block.racceconomy.shop.mode.toggle=Toggle mode
+block.racceconomy.shop.ui.main=Trading View
+block.racceconomy.shop.ui.storage=Storage View
+block.racceconomy.shop.ui.btn.sell=Sell for %s
+block.racceconomy.shop.ui.btn.buy=Buy for %s
+block.racceconomy.shop.notification2on=Turn on notifications
+block.racceconomy.shop.notification2off=Turn off notifications
+
+# Chat stuff
+block.racceconomy.shop.no_stock=%s is out of stock.
+block.racceconomy.shop.overfilled=This shop is overfilled.
+block.racceconomy.shop.no_money.buy=You don't have enough money.
+block.racceconomy.shop.no_money.sell=%s does not have enough money.
+block.racceconomy.shop.notification.buy=You bough %sx%s from %s for %s.
+block.racceconomy.shop.notification.sell=You sold %sx%s to %s for %s.
+
+# /balance
+command.balance.self=Your balance is %s.
+command.balance=%s's balance is %s.
+
+# /pay
+command.pay.fail.self=You can not send money to yourself.
+command.pay.fail.not_enough=You don't have enough money to transfer to %s.
+command.pay=You paid %s to %s
+
+# /adminpay
+command.adminpay.zero=Zero is not going to change the balance.
+command.adminpay.add=Added %s money to %s's balance. New balance: %s
+command.adminpay.take=Took %s money to %s's balance. New balance: %s

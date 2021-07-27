@@ -1,0 +1,15 @@
+{
+	"required": true,
+	"minVersion": "0.8.1",
+	"package": "org.zeith.comms.c17racceconomy.mixins",
+	"refmap": "mixins.racceconomy.refmap.json",
+	"target": "@env(DEFAULT)",
+	"compatibilityLevel": "JAVA_8",
+	"mixins": [
+	],
+	"client": [
+		"InventoryScreenMixin"
+	],
+	"server": [
+	]
+}

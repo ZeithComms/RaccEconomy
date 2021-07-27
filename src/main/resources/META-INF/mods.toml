@@ -1,0 +1,33 @@
+modLoader = "javafml"
+loaderVersion = "[36,)"
+issueTrackerURL = "https://github.com/ZeithComms/RaccEconomy"
+license = "All rights reserved"
+[[mods]]
+modId = "racceconomy"
+version = "${file.jarVersion}"
+displayName = "Racc Economy"
+updateJSONURL = "http://dccg.herokuapp.com/api/fmluc/508708"
+displayURL = "http://dccg.herokuapp.com/api/fmlhp/508708"
+credits = "Mokkel"
+authors = "Zeitheron"
+description = '''
+Minecraft economy mod.
+'''
+[[dependencies.racceconomy]]
+modId = "forge"
+mandatory = true
+versionRange = "[36,)"
+ordering = "NONE" # NONE/BEFORE/AFTER
+side = "BOTH"
+[[dependencies.racceconomy]]
+modId = "minecraft"
+mandatory = true
+versionRange = "[1.16.5]"
+ordering = "NONE"
+side = "BOTH"
+[[dependencies.racceconomy]]
+modId = "hammerlib"
+mandatory = true
+versionRange = "[16.3,)"
+ordering = "NONE"
+side = "BOTH"

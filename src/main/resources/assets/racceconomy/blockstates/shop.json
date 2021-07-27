@@ -1,0 +1,34 @@
+{
+	"variants": {
+		"facing=north,mode=buy": {
+			"model": "racceconomy:block/shop/buy"
+		},
+		"facing=south,mode=buy": {
+			"model": "racceconomy:block/shop/buy",
+			"y": 180
+		},
+		"facing=west,mode=buy": {
+			"model": "racceconomy:block/shop/buy",
+			"y": 270
+		},
+		"facing=east,mode=buy": {
+			"model": "racceconomy:block/shop/buy",
+			"y": 90
+		},
+		"facing=north,mode=sell": {
+			"model": "racceconomy:block/shop/sell"
+		},
+		"facing=south,mode=sell": {
+			"model": "racceconomy:block/shop/sell",
+			"y": 180
+		},
+		"facing=west,mode=sell": {
+			"model": "racceconomy:block/shop/sell",
+			"y": 270
+		},
+		"facing=east,mode=sell": {
+			"model": "racceconomy:block/shop/sell",
+			"y": 90
+		}
+	}
+}
