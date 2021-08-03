@@ -4,6 +4,8 @@ import net.minecraft.client.Minecraft;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.nbt.CompoundNBT;
 import net.minecraft.network.PacketBuffer;
+import net.minecraftforge.api.distmarker.Dist;
+import net.minecraftforge.api.distmarker.OnlyIn;
 import org.zeith.comms.c17racceconomy.api.CapabilityRaccEconomy;
 import org.zeith.comms.c17racceconomy.api.IRaccPackData;
 import org.zeith.hammerlib.net.IPacket;
@@ -38,6 +40,7 @@ public class PacketSyncRaccPackData
 	}
 
 	@Override
+	@OnlyIn(Dist.CLIENT)
 	public void clientExecute(PacketContext ctx)
 	{
 		PlayerEntity clPl = Minecraft.getInstance().player;

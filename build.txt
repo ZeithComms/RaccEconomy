@@ -2,7 +2,7 @@
 mod_id=racceconomy
 archive_name=RaccEconomy
 mod_name=Racc Economy
-mod_version=16.1.1
+mod_version=16.1.2
 
 # Maven Info
 maven_group=org.zeith.comms.c17racceconomy
@@ -10,7 +10,7 @@ maven_group=org.zeith.comms.c17racceconomy
 # MC Info
 mc_version=1.16.5
 forge_version=36.1.24
-hl_version=16.3.17
+hl_version=16.3.18
 
 # MCP Info
 mcp_ch=official
@@ -20,7 +20,7 @@ mcp_vr=1.16.5
 java=1.8
 
 # Project ID on CurseForge
-cf_project=0
+cf_project=508708
 
 # alpha, beta, release
-release_type=alpha
+release_type=release
