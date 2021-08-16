@@ -20,8 +20,8 @@ block.racceconomy.shop.no_stock=%s is out of stock.
 block.racceconomy.shop.overfilled=This shop is overfilled.
 block.racceconomy.shop.no_money.buy=You don't have enough money.
 block.racceconomy.shop.no_money.sell=%s does not have enough money.
-block.racceconomy.shop.notification.buy=You bough %sx%s from %s for %s.
-block.racceconomy.shop.notification.sell=You sold %sx%s to %s for %s.
+block.racceconomy.shop.notification.buy=You sold %sx%s to %s for %s.
+block.racceconomy.shop.notification.sell=You bough %sx%s from %s for %s.
 
 # /balance
 command.balance.self=Your balance is %s.

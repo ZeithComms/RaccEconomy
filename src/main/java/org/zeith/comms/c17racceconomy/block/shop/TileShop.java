@@ -173,6 +173,8 @@ public class TileShop
 	{
 		ShopMode mode = getMode();
 
+		if(goods.get().isEmpty()) return false;
+
 		if(mode != null)
 		{
 			switch(mode)
@@ -238,6 +240,8 @@ public class TileShop
 	{
 		ShopMode mode = getMode();
 
+		if(goods.get().isEmpty()) return false;
+
 		if(mode != null)
 		{
 			switch(mode)
@@ -279,7 +283,7 @@ public class TileShop
 
 							give = goods.get();
 
-							sendNotificationToOwner(new TranslationTextComponent("block." + RaccEconomy.MOD_ID + ".shop.notification.buy", Integer.toString(give.getCount()), give.getDisplayName(), EconomyAPI.getBalanceText(price.get())));
+							sendNotificationToOwner(new TranslationTextComponent("block." + RaccEconomy.MOD_ID + ".shop.notification.buy", Integer.toString(give.getCount()), give.getDisplayName(), player.getName(), EconomyAPI.getBalanceText(price.get())));
 
 							return true;
 						} else
@@ -356,7 +360,7 @@ public class TileShop
 							ownerBal -= price.get();
 							EconomyAPI.setBalance(player.getServer(), owner.get(), ownerBal);
 
-							sendNotificationToOwner(new TranslationTextComponent("block." + RaccEconomy.MOD_ID + ".shop.notification.sell", Integer.toString(give.getCount()), give.getDisplayName(), EconomyAPI.getBalanceText(price.get())));
+							sendNotificationToOwner(new TranslationTextComponent("block." + RaccEconomy.MOD_ID + ".shop.notification.sell", Integer.toString(give.getCount()), give.getDisplayName(), player.getName(), EconomyAPI.getBalanceText(price.get())));
 
 							return true;
 						} else

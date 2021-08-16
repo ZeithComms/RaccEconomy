@@ -148,6 +148,8 @@ public class TileAdminShop
 	{
 		ShopMode mode = getMode();
 
+		if(goods.get().isEmpty()) return false;
+
 		if(mode != null)
 		{
 			switch(mode)
@@ -182,6 +184,8 @@ public class TileAdminShop
 	public boolean performTrade(ServerPlayerEntity player)
 	{
 		ShopMode mode = getMode();
+
+		if(goods.get().isEmpty()) return false;
 
 		if(mode != null)
 		{

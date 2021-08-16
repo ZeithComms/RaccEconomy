@@ -24,6 +24,7 @@ import org.zeith.comms.c17racceconomy.utils.slots.ShopSlot;
 import org.zeith.hammerlib.client.screen.ScreenWTFMojang;
 import org.zeith.hammerlib.client.utils.FXUtils;
 import org.zeith.hammerlib.net.Network;
+import vazkii.quark.api.IQuarkButtonIgnored;
 
 import java.awt.*;
 import java.util.ArrayList;
@@ -31,6 +32,7 @@ import java.util.List;
 
 public class ScreenShop
 		extends ScreenWTFMojang<ContainerShop>
+		implements IQuarkButtonIgnored
 {
 	public static final ResourceLocation STORAGE_GUI = new ResourceLocation("textures/gui/container/generic_54.png");
 	public static final ResourceLocation SHOP_GUI = new ResourceLocation(RaccEconomy.MOD_ID, "textures/gui/shop.png");
